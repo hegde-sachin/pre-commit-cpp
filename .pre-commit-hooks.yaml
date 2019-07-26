@@ -1,0 +1,7 @@
+- id: cpplint
+  name: Compliance with Google C++ Style Guide
+  description: Run cpplint against C/C++ files
+  language: python
+  files: \.(cpp|cc|cxx|h|hpp)$
+  entry: cpplint
+  args: []
