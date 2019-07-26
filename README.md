@@ -16,7 +16,7 @@ Create `.pre-commit-config.yaml` under the root of your git repository. (Read
 
 Then install pre-commit into your git hooks. (Read [https://pre-commit.com/#usage](https://pre-commit.com/#usage) for more.)
 
-### cpplint
+### Python and cpplint
 
 `cpplint` hook requires [cpplint](https://pypi.org/project/cpplint/) Python package, which in turn requires Python.  Once Python is installed on your system, cpplint package will be taken care of.
 
@@ -40,6 +40,10 @@ To use the C/C++ hooks, add the following YAML code-block to your `.pre-commit-c
 
 Of course, you don't need to use all the hooks together.
 And remember, YAML is indentation sensitive: use the same number of whitespaces for indentation level.
+
+## Usage
+
+Each time you commit to the git repository, the hooks will run automatically. :-)
 
 ## References
 
