@@ -1,7 +1,12 @@
 - id: cpplint
   name: Compliance with Google C++ Style Guide
-  description: Run cpplint against C/C++ files
+  description: Run cpplint against C++ files
   language: python
-  # files: \.(cpp|cc|cxx|h|hpp)$
   types: [c++]
   entry: cpplint
+- id: cppcheck
+  name: Static analysis of C/C++ code
+  description: Run cppcheck against C/C++ files
+  language: python
+  types: [c, c++]
+  entry: cppcheck
