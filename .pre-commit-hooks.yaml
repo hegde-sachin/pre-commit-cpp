@@ -2,5 +2,6 @@
   name: Compliance with Google C++ Style Guide
   description: Run cpplint against C/C++ files
   language: python
-  files: \.(cpp|cc|cxx|h|hpp)$
+  # files: \.(cpp|cc|cxx|h|hpp)$
+  types: [c++]
   entry: cpplint
