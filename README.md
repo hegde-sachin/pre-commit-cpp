@@ -1,41 +1,49 @@
 # pre-commit-cpp
 
-pre-commit framework hook for C/C++ language
+This is a set of the git [pre-commit framework](https://pre-commit.com/) hooks for C/C++ language. The hooks provided are:
 
-## Hooks
+* [cpplint](https://github.com/cpplint/cpplint): A style-error detector (or linter) for [Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
+* [cppcheck](http://cppcheck.sourceforge.net/): A static analyzer for C/C++ code
+
+## Installation
+
+### Prerequisites
+
+Install pre-commit framework if you haven't done it already. Please read [https://pre-commit.com/#install](https://pre-commit.com/#install) for more information.
+
+Change to your git repository and create `.pre-commit-config.yaml` under the root of the repository. Please read
+[https://pre-commit.com/#plugins](https://pre-commit.com/#plugins) for more information.
+
+Then install pre-commit into your git hooks. Please read [https://pre-commit.com/#usage](https://pre-commit.com/#usage) for more information.
+
+### C/C++ hooks
+
+To use C/C++ hooks, add the following YAML code-block to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://gitlab.com/daverona-env/pre-commit-cpp
-  rev: 1.0.0
+  rev: master
   hooks:
-  - id: cpplint
-  - id: cppcheck
+  - id: cpplint   # a linter for Google C++ Style Guide
+  - id: cppcheck  # a static analyzer for C/C++ code
 ```
+
+Of course, you don't need to use all the hooks together.
 
 ## External tools
 
-<!--
-### clang-format
+### cpplint
 
-```bash
-brew install clang-format
-```
--->
+`cpplint` hook requires cpplint Python package, which in turn requires Python.  Once Python is installed on your system, cpplint package will be taken care of.
+
+The installation method of Python can be found here: [https://docs.python-guide.org/starting/installation/](https://docs.python-guide.org/starting/installation/).
 
 ### cppcheck
 
-The installation method for macOS, Linux and Microsoft Windows is explained on its official site: [http://cppcheck.sourceforge.net/](http://cppcheck.sourceforge.net/).
-
-<!--
-### oclint
-
-```bash
-brew install oclint
-```
-
-The installation method for Linux is described on its official site: [http://docs.oclint.org/en/stable/intro/installation.html](http://docs.oclint.org/en/stable/intro/installation.html),
--->
+`cppcheck` hook requires cppcheck executable, which is available for macOS, Linux and Microsoft Windows. You can download cppcheck from its official site: [http://cppcheck.sourceforge.net/](http://cppcheck.sourceforge.net/).
 
 ## References
 
+* [https://pre-commit.com/](https://pre-commit.com/)
+* [https://pre-commit.com/hooks.html](https://pre-commit.com/hooks.html)
 * [https://github.com/caramelomartins/awesome-linters#cc](https://github.com/caramelomartins/awesome-linters#cc)
