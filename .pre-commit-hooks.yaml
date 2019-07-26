@@ -8,5 +8,5 @@
   name: Static analysis of C/C++ code
   description: Run cppcheck against C/C++ files
   language: system
-  types: [c,c++]
+  files: \.(cpp|cc|cxx|c|h|hpp|hxx)$
   entry: cppcheck
