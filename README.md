@@ -19,7 +19,6 @@ Then install pre-commit into your git hooks. (Read [https://pre-commit.com/#usag
 ### Python and cpplint
 
 `cpplint` hook requires [cpplint](https://pypi.org/project/cpplint/) Python package, which in turn requires Python.  Once Python is installed on your system, cpplint package will be taken care of.
-
 The installation method of Python can be found here: [https://docs.python-guide.org/starting/installation/](https://docs.python-guide.org/starting/installation/).
 
 ### cppcheck
