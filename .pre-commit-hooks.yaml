@@ -4,4 +4,3 @@
   language: python
   files: \.(cpp|cc|cxx|h|hpp)$
   entry: cpplint
-  args: []
