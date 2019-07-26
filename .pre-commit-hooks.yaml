@@ -7,6 +7,6 @@
 - id: cppcheck
   name: Static analysis of C/C++ code
   description: Run cppcheck against C/C++ files
-  language: python
-  types: [c, c++]
+  language: system
+  types: [c,c++]
   entry: cppcheck
