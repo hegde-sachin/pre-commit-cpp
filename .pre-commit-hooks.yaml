@@ -8,5 +8,6 @@
   name: Static analysis of C/C++ code
   description: Run cppcheck against C/C++ files
   language: system
-  files: \.(cpp|cc|cxx|c|h|hpp|hxx)$
+  files: \.(cpp|cxx|cc|c\+\+|c|tpp|txx)$
   entry: cppcheck
+  args: ["--error-exitcode=1"]
