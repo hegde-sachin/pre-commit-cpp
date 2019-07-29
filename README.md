@@ -38,7 +38,8 @@ You don't need to use all the hooks together, i.e.
 add hooks that you want to use.
 
 And remember, YAML is indentation sensitive: make sure `.pre-commit-config.yaml` 
-uses the same number of whitespaces for indentation level.
+uses the same number of whitespaces for indentation level after adding the
+above code block.
 
 ## Usage
 
