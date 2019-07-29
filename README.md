@@ -50,6 +50,23 @@ And remember, YAML is indentation sensitive: make sure `.pre-commit-config.yaml`
 use the same number of whitespaces for indentation after adding the above code
 block.
 
+## C/C++ Hook Configuration
+
+### clang-format
+
+By default, Google style (as described in Google C++ Style Guide) is used. If
+you like to use a different style, say
+[LLVM Coding Standard](http://llvm.org/docs/CodingStandards.html),
+please add `args` to the hook to override the default style:
+
+```yaml
+- repo: https://gitlab.com/daverona-env/pre-commit-cpp
+  ...
+  - id: clang-format
+    args: ["-style=LLVM"]
+  ...
+```
+
 ## Usage
 
 Each time you commit to the git repository, the hooks will run automatically.
