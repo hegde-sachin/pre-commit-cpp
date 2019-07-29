@@ -56,7 +56,7 @@ block.
 
 By default, Google style (as described in Google C++ Style Guide) is used. If
 you like to use a different style, say
-[LLVM Coding Standard](http://llvm.org/docs/CodingStandards.html),
+[LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html),
 please add `args` to the hook to override the default style:
 
 ```yaml
