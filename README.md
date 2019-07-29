@@ -4,7 +4,7 @@ This is a set of git [pre-commit framework](https://pre-commit.com/) hooks for
 C/C++ language. The hooks provided are:
 
 * [clang-format](https://clang.llvm.org): formatter of C/C++ code based on a
-style guide: Google, LLVM, Mozilla, Webkit, and Chromium available
+style guide (Google, LLVM, Mozilla, Webkit, and Chromium available)
 * [cpplint](https://github.com/cpplint/cpplint): linter
 (or style-error detector) for
 [Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
@@ -38,7 +38,7 @@ To use the C/C++ hooks, add the following YAML code block to your
 - repo: https://gitlab.com/daverona-env/pre-commit-cpp
   rev: 0.6.0          # use the most recent version
   hooks:
-  - id: clang-format  # formatter of C/C++ code based on a style guide: Google, LLVM, Mozilla, Webkit, and Chromium available
+  - id: clang-format  # formatter of C/C++ code based on a style guide (Google, LLVM, Mozilla, Webkit, and Chromium available)
   - id: cpplint       # linter (or style-error checker) for Google C++ Style Guide
   - id: cppcheck      # static analyzer of C/C++ code
 ```

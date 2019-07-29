@@ -1,5 +1,5 @@
 - id: clang-format
-  name: formatter of C/C++ code based on a style guide\: Google, LLVM, Mozilla, Webkit, and Chromium available
+  name: formatter of C/C++ code based on a style guide (Google, LLVM, Mozilla, Webkit, and Chromium available)
   description: Run clang-format against C/C++ header and source files
   language: system
   files: \.(h\+\+|h|hh|hxx|hpp|cuh|c|cc|cpp|cu|c\+\+|cxx|tpp|txx)$
