@@ -63,3 +63,5 @@ Each time you commit to the git repository, the hooks will run automatically.
 * [https://clang.llvm.org/docs/ClangFormat.html](https://clang.llvm.org/docs/ClangFormat.html)
 * [https://github.com/cpplint/cpplint](https://github.com/cpplint/cpplint)
 * [http://cppcheck.sourceforge.net/](http://cppcheck.sourceforge.net/)
+* [http://google.github.io/styleguide/cppguide.html](http://google.github.io/styleguide/cppguide.html)
+* [http://llvm.org/docs/CodingStandards.html](http://llvm.org/docs/CodingStandards.html)
