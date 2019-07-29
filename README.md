@@ -6,26 +6,27 @@ C/C++ language. The hooks provided are:
 * [cpplint](https://github.com/cpplint/cpplint): linter
 (or style-error detector) for
 [Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
-* [cppcheck](http://cppcheck.sourceforge.net/): static analyzer for C/C++ code
+* [cppcheck](http://cppcheck.sourceforge.net/): static analyzer of C/C++ code
+* [clang-format](https://clang.llvm.org): formatter of C/C++ code based on a
+style guide: Google, LLVM, Mozilla, Webkit, and Chromium available
 
-## Prerequisites
+This hooks require pre-commit framework to be installed on your system
+and configured for each git repository. For more information please refer to
 
-1. Install pre-commit framework if you haven't done it already.  For more
-information please read
-[https://pre-commit.com/#install](https://pre-commit.com/#install).
-2. Create `.pre-commit-config.yaml` under the root of your git repository if you
-don't have one.  For more information please read
-[https://pre-commit.com/#plugins](https://pre-commit.com/#plugins).
-3. Install pre-commit into your git hooks if you haven't done it already. For
-more information please read
-[https://pre-commit.com/#usage](https://pre-commit.com/#usage).
-4. cppcheck hook in pre-commit-cpp requires `cppcheck` executable, which is
-available for macOS, Linux and Microsoft Windows. brew (on macOS) or apt (on
-Ubuntu) can install it. For Windows, please refer to
+* [pre-commit installation](https://pre-commit.com/#install)
+* [pre-commit plugins (`.pre-commit-config.yaml`)](https://pre-commit.com/#plugins)
+* [pre-commit usage](https://pre-commit.com/#usage)
+* [a list of pre-commit hooks](https://pre-commit.com/hooks.html)
+
+## Prerequisites for C/C++ Hooks
+
+1. cppcheck hook in pre-commit-cpp requires `cppcheck` executable, which is
+available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt (on
+Ubuntu) to install it. For Windows, please refer to
 [http://cppcheck.sourceforge.net/#download](http://cppcheck.sourceforge.net/#download).
-5. clang-format hook in pre-commit-cpp requires `clang-format` executable, which
-is available for macOS, Linux and Microsoft Windows. brew (on macOS) or apt (on
-Ubuntu) can install it. For Windows, please refer to
+2. clang-format hook in pre-commit-cpp requires `clang-format` executable, which
+is available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt
+(on Ubuntu) can install it. For Windows, please refer to
 [http://releases.llvm.org/download.html](http://releases.llvm.org/download.html)
 
 ## C/C++ Hook Installation
