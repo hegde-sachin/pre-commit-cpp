@@ -9,7 +9,8 @@ This is a set of git [pre-commit framework](https://pre-commit.com/) hooks for C
 
 ### Prerequisites
 
-Install pre-commit framework if you haven't done it already. (Read [https://pre-commit.com/#install](https://pre-commit.com/#install) for more.)
+1. Install pre-commit framework if you haven't done it already. 
+2. (Read [https://pre-commit.com/#install](https://pre-commit.com/#install) for more.)
 
 Create `.pre-commit-config.yaml` under the root of your git repository. (Read
 [https://pre-commit.com/#plugins](https://pre-commit.com/#plugins) for more.)
