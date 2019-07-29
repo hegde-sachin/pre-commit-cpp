@@ -10,23 +10,23 @@ C/C++ language. The hooks provided are:
 * [clang-format](https://clang.llvm.org): formatter of C/C++ code based on a
 style guide: Google, LLVM, Mozilla, Webkit, and Chromium available
 
-This hooks require pre-commit framework to be installed on your system
+These hooks require pre-commit framework to be installed on your system
 and configured for each git repository. For more information please refer to
 
 * [pre-commit installation](https://pre-commit.com/#install)
-* [pre-commit plugins (`.pre-commit-config.yaml`)](https://pre-commit.com/#plugins)
+* [pre-commit plugins](https://pre-commit.com/#plugins) (`.pre-commit-config.yaml`)
 * [pre-commit usage](https://pre-commit.com/#usage)
-* [a list of pre-commit hooks](https://pre-commit.com/hooks.html)
+* [pre-commit hook list](https://pre-commit.com/hooks.html)
 
-## Prerequisites for C/C++ Hooks
+## C/C++ Hook Prerequisites
 
 1. cppcheck hook in pre-commit-cpp requires `cppcheck` executable, which is
 available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt (on
-Ubuntu) to install it. For Windows, please refer to
+Ubuntu) to install it. For Windows, please read
 [http://cppcheck.sourceforge.net/#download](http://cppcheck.sourceforge.net/#download).
 2. clang-format hook in pre-commit-cpp requires `clang-format` executable, which
 is available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt
-(on Ubuntu) can install it. For Windows, please refer to
+(on Ubuntu) can install it. For Windows, please read
 [http://releases.llvm.org/download.html](http://releases.llvm.org/download.html)
 
 ## C/C++ Hook Installation
