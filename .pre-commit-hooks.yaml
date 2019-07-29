@@ -1,13 +1,13 @@
 - id: cpplint
   name: Compliance with Google C++ Style Guide
-  description: Run cpplint against C++ files
+  description: Run cpplint against C/C++ header and source files
   language: python
-  types: [c++]
+  files: \.(h\+\+|h|hh|hxx|hpp|cuh|c|cc|cpp|cu|c\+\+|cxx|tpp|txx)$
   entry: cpplint
 - id: cppcheck
   name: Static analysis of C/C++ code
-  description: Run cppcheck against C/C++ files
+  description: Run cppcheck against C/C++ source files
   language: system
-  files: \.(cpp|cxx|cc|c\+\+|c|tpp|txx)$
+  files: \.(c|cc|cpp|cu|c\+\+|cxx|tpp|txx)$
   entry: cppcheck
   args: ["--error-exitcode=1"]
