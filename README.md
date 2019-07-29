@@ -1,8 +1,11 @@
 # pre-commit-cpp
 
-This is a set of git [pre-commit framework](https://pre-commit.com/) hooks for C/C++ language. The hooks provided are:
+This is a set of git [pre-commit framework](https://pre-commit.com/) hooks for 
+C/C++ language. The hooks provided are:
 
-* [cpplint](https://github.com/cpplint/cpplint): style-error detector (or linter) for [Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
+* [cpplint](https://github.com/cpplint/cpplint): linter 
+(or style-error detector) for 
+[Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
 * [cppcheck](http://cppcheck.sourceforge.net/): static analyzer for C/C++ code
 
 ## Prerequisites
@@ -23,7 +26,7 @@ official site:
 
 ## C/C++ Hook Installation
 
-To use the C/C++ hooks, add the following YAML code-block to your 
+To use the C/C++ hooks, add the following YAML code block to your 
 `.pre-commit-config.yaml`:
 
 ```yaml
@@ -35,15 +38,16 @@ To use the C/C++ hooks, add the following YAML code-block to your
 ```
 
 You don't need to use all the hooks together, i.e.
-add hooks that you want to use.
+add only the ones that you need.
 
 And remember, YAML is indentation sensitive: make sure `.pre-commit-config.yaml` 
-uses the same number of whitespaces for indentation level after adding the
-above code block.
+uses the same number of whitespaces for indentation after adding the above code 
+block.
 
 ## Usage
 
-Each time you commit to the git repository, the hooks will run automatically. :-)
+Each time you commit to the git repository, the hooks will run automatically. 
+:-)
 
 ## References
 
