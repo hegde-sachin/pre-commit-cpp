@@ -16,9 +16,9 @@ don't have one.  For more information please read
 3. Install pre-commit into your git hooks if you haven't done it already. For 
 more information please read 
 [https://pre-commit.com/#usage](https://pre-commit.com/#usage).
-4. cppcheck hook in pre-commit-cpp requires `cppcheck` executable.
-Install `cppcheck`, which is available for macOS, Linux and Microsoft Windows. 
-You can download cppcheck from its official site: 
+4. cppcheck hook in pre-commit-cpp requires `cppcheck` executable, which is 
+available for macOS, Linux and Microsoft Windows. You can download it from its 
+official site: 
 [http://cppcheck.sourceforge.net/](http://cppcheck.sourceforge.net/).
 
 ## C/C++ Hook Installation
