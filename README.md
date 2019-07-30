@@ -44,7 +44,7 @@ To use the C/C++ hooks, add the following YAML code block to your
 You don't need to use all the hooks together, i.e. add only the ones that you
 need.
 
-And remember, YAML is indentation sensitive: make sure `.pre-commit-config.yaml`
+And remember, YAML is indentation sensitive: `.pre-commit-config.yaml` must
 use the same number of whitespaces for indentation after adding the above code
 block.
 
@@ -52,8 +52,9 @@ block.
 
 ### clang-format
 
-By default, Google style (as described in Google C++ Style Guide) is used. If
-you like to use a different style, say
+By default, Google style (as described in 
+[Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)) 
+is used. If you like to use a different style, say
 [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html),
 please add `args` to the hook to override the default style:
 
@@ -72,11 +73,14 @@ Each time you commit to the git repository, the hooks will run automatically.
 
 ## References
 
-* [https://pre-commit.com/](https://pre-commit.com/)
-* [https://pre-commit.com/hooks.html](https://pre-commit.com/hooks.html)
+* [pre-commit framework](https://pre-commit.com/)
+* [pre-commit supported hooks](https://pre-commit.com/hooks.html)
 * [https://github.com/caramelomartins/awesome-linters#cc](https://github.com/caramelomartins/awesome-linters#cc)
-* [https://clang.llvm.org/docs/ClangFormat.html](https://clang.llvm.org/docs/ClangFormat.html)
-* [https://github.com/cpplint/cpplint](https://github.com/cpplint/cpplint)
-* [http://cppcheck.sourceforge.net/](http://cppcheck.sourceforge.net/)
-* [http://google.github.io/styleguide/cppguide.html](http://google.github.io/styleguide/cppguide.html)
-* [http://llvm.org/docs/CodingStandards.html](http://llvm.org/docs/CodingStandards.html)
+* [clang-format homepage](https://clang.llvm.org/docs/ClangFormat.html)
+* [cpplint homepage](https://github.com/cpplint/cpplint)
+* [cppcheck homepage](http://cppcheck.sourceforge.net/)
+* [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
+* [Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
+* [Chromium C++ style guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
+* [Mozilla Coding Style Guide](https://www-archive.mozilla.org/hacking/mozilla-style-guide.html)
+* [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines/)
