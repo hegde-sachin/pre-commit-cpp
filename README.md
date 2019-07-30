@@ -76,9 +76,11 @@ Each time you commit to the git repository, the hooks will run automatically.
 * [pre-commit framework](https://pre-commit.com/)
 * [pre-commit supported hooks](https://pre-commit.com/hooks.html)
 * [https://github.com/caramelomartins/awesome-linters#cc](https://github.com/caramelomartins/awesome-linters#cc)
-* [clang-format homepage](https://clang.llvm.org/docs/ClangFormat.html)
+* [clang-format homepage](https://clang.llvm.org/docs/ClangFormat.html) and
+[clang-format man page](http://manpages.ubuntu.com/manpages/xenial/en/man1/clang-format-3.5.1.html)
 * [cpplint homepage](https://github.com/cpplint/cpplint)
-* [cppcheck homepage](http://cppcheck.sourceforge.net/)
+* [cppcheck homepage](http://cppcheck.sourceforge.net/) and
+[cppcheck man page](http://www.polarhome.com/service/man/?qf=cppcheck&tf=2&of=Ubuntu&sf=1)
 * [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
 * [Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
 * [Chromium C++ style guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
