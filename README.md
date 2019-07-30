@@ -23,7 +23,7 @@ and configured for each git repository. For more information please refer to
 1. clang-format hook in pre-commit-cpp requires `clang-format` executable, which
 is available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt
 (on Ubuntu) to install it. For Windows, please read
-[http://releases.llvm.org/download.html](http://releases.llvm.org/download.html)
+[http://releases.llvm.org/download.html](http://releases.llvm.org/download.html).
 2. cppcheck hook in pre-commit-cpp requires `cppcheck` executable, which is
 available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt (on
 Ubuntu) to install it. For Windows, please read
