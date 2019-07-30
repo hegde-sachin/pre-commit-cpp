@@ -61,10 +61,10 @@ please add `args` to the hook to override the default style:
 
 ```yaml
 - repo: https://gitlab.com/daverona-env/pre-commit-cpp
-  ...
+  rev: 0.6.0               # use the most recent version
+  hooks:
   - id: clang-format
-    args: ["-style=LLVM"]
-  ...
+    args: ["-style=LLVM"]  # use LLVM Coding Standards
 ```
 
 ## Usage
