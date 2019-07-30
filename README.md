@@ -83,6 +83,6 @@ Each time you commit to the git repository, the hooks will run automatically.
 [cppcheck man page](http://www.polarhome.com/service/man/?qf=cppcheck&tf=2&of=Ubuntu&sf=1)
 * [LLVM Coding Standards](http://llvm.org/docs/CodingStandards.html)
 * [Google C++ Style Guide](http://google.github.io/styleguide/cppguide.html)
-* [Chromium C++ style guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
+* [Chromium C++ Style Guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
 * [Mozilla Coding Style Guide](https://www-archive.mozilla.org/hacking/mozilla-style-guide.html)
 * [WebKit Code Style Guidelines](https://webkit.org/code-style-guidelines/)
