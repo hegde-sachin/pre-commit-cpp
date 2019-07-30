@@ -24,7 +24,7 @@ and configured for each git repository. For more information please refer to
 brew (on macOS) or apt-get (on Ubuntu) to install it. For Windows, please read
 [http://releases.llvm.org/download.html](http://releases.llvm.org/download.html).
 2. cppcheck hook in pre-commit-cpp requires `cppcheck` executable. Use brew 
-(on macOS) or apt (on Ubuntu) to install it. For Windows, please read
+(on macOS) or apt-get (on Ubuntu) to install it. For Windows, please read
 [http://cppcheck.sourceforge.net/#download](http://cppcheck.sourceforge.net/#download).
 
 ## C/C++ Hook Installation
