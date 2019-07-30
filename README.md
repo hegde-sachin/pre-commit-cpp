@@ -20,13 +20,11 @@ and configured for each git repository. For more information please refer to
 
 ## C/C++ Hook Prerequisites
 
-1. clang-format hook in pre-commit-cpp requires `clang-format` executable, which
-is available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt
-(on Ubuntu) to install it. For Windows, please read
+1. clang-format hook in pre-commit-cpp requires `clang-format` executable. Use 
+brew (on macOS) or apt-get (on Ubuntu) to install it. For Windows, please read
 [http://releases.llvm.org/download.html](http://releases.llvm.org/download.html).
-2. cppcheck hook in pre-commit-cpp requires `cppcheck` executable, which is
-available for macOS, Linux and Microsoft Windows. Use brew (on macOS) or apt (on
-Ubuntu) to install it. For Windows, please read
+2. cppcheck hook in pre-commit-cpp requires `cppcheck` executable. Use brew 
+(on macOS) or apt (on Ubuntu) to install it. For Windows, please read
 [http://cppcheck.sourceforge.net/#download](http://cppcheck.sourceforge.net/#download).
 
 ## C/C++ Hook Installation
